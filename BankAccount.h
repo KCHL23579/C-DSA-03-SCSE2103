@@ -1,4 +1,4 @@
-**
+/*
  * @file BankAccount.h
  * Class specification for BankAccount ADT
 */
@@ -30,5 +30,5 @@ class BankAccount {
     double getBalance() const;
     void display() const;
 };
-#endif
+
 #endif
