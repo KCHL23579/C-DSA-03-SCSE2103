@@ -1,4 +1,4 @@
-/**
+/*
  * @file BankAccount.cpp
  * Implementation of BankAccount ADT
 */
@@ -39,7 +39,7 @@ void BankAccount::deposit(double amount) {
 bool BankAccount::withdraw(double amount) {
  
   // TODO 6: Complete condition checking if amount is positive AND balance is sufficient
- if (amount >= 0 && balance >= amount) {
+ if (amount > 0 && balance >= amount) {
    balance -= amount;
    std::cout << "Withdrew $" << amount << " successfully.\n";
    return true;
